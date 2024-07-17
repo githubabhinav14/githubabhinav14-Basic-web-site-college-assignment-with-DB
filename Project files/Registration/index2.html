@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script defer src="registration.js"></script> <!-- Use defer attribute -->
+</head>
+<body>
+    <div>
+        <form id="registrationForm">
+            <h1>Student Registration</h1>
+            <img src="profileimg.png" height="200" width="200" alt="#">
+            <br><br>
+            First Name <input type="text" id="firstName" placeholder="Enter First Name">
+            <br><br>
+            Last Name <input type="text" id="lastName" placeholder="Enter Last Name">
+            <br><br>
+            Email <input type="email" id="email" placeholder="Enter Email ID">
+            <br><br>
+            Phone Number <input type="tel" id="phoneNumber" placeholder="Enter Phone Number">
+            <br><br>
+            Password <input type="password" id="password" placeholder="Create Password">
+            <br><br>
+            Age <input type="tel" id="age" placeholder="Enter Age">
+            <br><br>
+            Gender 
+            <input type="radio" value="Male" name="gender">Male
+            <input type="radio" value="Female" name="gender">Female
+            <br><br>
+            Branch 
+            <select name="Branch" id="branch">
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="AERO">AERO</option>
+                <option value="MECH">MECH</option>
+            </select>
+            <br><br>
+            <button type="submit">Register</button>
+            <br>
+            <p>Already have an account? <a href="/Project files/Login Page/index1.html">Login</a></p>
+        </form>
+    </div>
+</body>
+</html>
